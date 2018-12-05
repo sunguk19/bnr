@@ -1,6 +1,6 @@
 import requests, json, time
 import serial
-ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
+ser = serial.Serial('/dev/ttyACM0', 115200, timeout=100)
 #ser = serial.Serial('/dev/ttyAMA0', 115200, timeout=1)
 #ser.open()
 url = "http://weair.dreammug.com/_API/saveData.php"
