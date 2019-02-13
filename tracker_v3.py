@@ -26,6 +26,6 @@ while 1:
             print(res.json())
         except : 
             print("failed to post")
-	except KeyboardInterrupt:
-            ser.close()
+    except KeyboardInterrupt:
+        ser.close()
  
